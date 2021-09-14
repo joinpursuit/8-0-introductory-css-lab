@@ -1,0 +1,42 @@
+h1 {
+    font-family: Luminari;
+    color: blue;
+    font-size: 30px;
+    background-color: #efff12;
+
+}
+h4 {
+    font-size: 100px;
+    text-decoration: overline line-through;
+}
+ul {
+list-style-type: none;
+}
+ol {
+    font-weight: bold;
+}
+li {
+    text-align: center;
+    border: 1px solid red;
+    border-radius: 10px;
+    color: blue;
+    background-color:rgb(255, 182, 193);
+    padding-left: 30px;
+}
+img {
+    height: 200px;
+}
+body {
+    font-family: sans-serif;
+    background-color: #f68fe0;
+}
+h3 {
+    text-decoration: underline;
+    color: #11e147;
+}
+p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: Comic Sans MS;
+    background-color: #ffc;
+}
