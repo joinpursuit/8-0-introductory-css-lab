@@ -1,0 +1,42 @@
+body {
+  font-family: sans-serif;
+  background: url("https://previews.123rf.com/images/phokin/phokin1802/phokin180200149/95690053-art-concrete-or-stone-texture-for-background-in-black-cream-and-white-colors-cement-and-sand-wall-of.jpg");
+  font-size: larger;
+  color: chocolate;
+}
+
+h1 {
+  font-family: "Luminari";
+  font-size: 30px;
+  color: blue;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ol {
+  font-weight: bold;
+}
+
+li {
+  text-align: center;
+  border: 1px solid rgb(255, 0, 0);
+  border-radius: 10px;
+  color: blue;
+  background-color: lightpink;
+  padding-left: 30px;
+}
+
+img {
+  height: 200px;
+}
+
+h3 {
+  text-decoration: underline;
+}
+
+p {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
