@@ -1,0 +1,68 @@
+body {
+  font-family: sans-serif;
+  background-color: rgb(157, 213, 215);
+}
+
+h1 {
+  font-family: Luminari;
+  color: blue;
+  font-size: 30px;
+  visibility: hidden;
+  text-indent: -219px;
+  text-align: center;
+}
+
+h1::after {
+  content: "Jose Borbon";
+  visibility: visible;
+}
+
+h2 {
+  font-family: fantasy;
+}
+
+h3 {
+  text-decoration: underline;
+  font-family: fantasy;
+}
+
+ul {
+  list-style-type: none;
+  text-align: center;
+}
+
+ol {
+  list-style-type: none;
+  font-weight: bold;
+  text-align: center;
+}
+
+li {
+  border: 1px solid rgb(255, 0, 0);
+  border-radius: 10px;
+  color: blue;
+  background-color: rgb(255, 182, 193);
+  padding-left: 30px;
+}
+
+li:hover {
+  color: black;
+}
+
+img {
+  height: 200px;
+  border-radius: 5px;
+  border: 1px solid;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#bug::after {
+  content: "🐞";
+}
