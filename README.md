@@ -34,18 +34,18 @@ This will open the Cypress testing window, where you can click to run an individ
 
 To complete the tests in this lab, you will need to add the following styles. If you're unclear about any of the instructions below, remember that you can check the test file to see what exactly is being tested.
 
-- Change the font of the name header to be `'Luminari'` and blue.
-- Remove the bullet points from your unordered list of links.
-- Change the `font-weight` in your ordered list to bold.
-- Center all `li` elements on the page.
-- Give your `li` elements a 1px red border with curved corners.
-- Change the font color of your `li` elements to blue and the background color to a light pink.
-- All images should be 200 pixels tall.
-- Change all font in the body to sans-serif.
-- Underline all `h3` elements.
-- All `p` tags should have 20 pixels of padding on the top and the bottom - not on the sides.
-- `h1` tags should have a 30px font size.
-- Lists should have `30px` of padding on the left.
+[x] Change the font of the name header to be `'Luminari'` and blue.
+[x] Remove the bullet points from your unordered list of links.
+[x] Change the `font-weight` in your ordered list to bold.
+[x] Center all `li` elements on the page.
+[x] Give your `li` elements a 1px red border with curved corners.
+[x] Change the font color of your `li` elements to blue and the background color to a light pink.
+[x] All images should be 200 pixels tall.
+[x] Change all font in the body to sans-serif.
+[x] Underline all `h3` elements.
+[x] All `p` tags should have 20 pixels of padding on the top and the bottom - not on the sides.
+[x] `h1` tags should have a 30px font size.
+[x] Lists should have `30px` of padding on the left.
 
 After you've completed these tasks, continue styling your page to make it look unique. You should add at least _ten additional declarations_ on top of the ones you've made above.
 
