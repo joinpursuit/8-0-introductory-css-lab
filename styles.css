@@ -1,0 +1,55 @@
+h1{
+    font-family: 'Luminari';
+    color: blue;
+    font-size: 30px;
+    text-align: center;
+}
+
+ul{
+    list-style-type: none;
+    font-weight: bold;
+}
+
+ol{
+    font-weight: bold;
+}
+
+li{
+    text-align: center;
+    border:  1px solid red;
+    border-radius: 10px;
+    color: blue;
+    background-color: lightpink;
+    padding-left: 30px;
+}
+
+img{
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid black;
+}
+
+body{
+    font-family: sans-serif;
+    background-color: lightseagreen;
+}
+
+h3{
+    text-decoration: underline;
+    font-style: italic;
+    border: 1px solid lightgreen;
+    padding: 5px;
+}
+
+p{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: lightpink;
+    border: 2px dotted red;
+}
+
+a:link{
+    color: darkred;
+}
