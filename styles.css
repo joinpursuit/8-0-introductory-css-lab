@@ -27,6 +27,7 @@ li {
     color: blue;
     background-color: lightpink;
     padding-left:  30px;
+    border-radius: 10px;
 }
 
 img {
@@ -38,9 +39,9 @@ p {
     padding-bottom: 20px;
 }
 
-.Bio {
+/* .Bio {
     border: 1px dotted black;
     width: 500px;
     padding: 50px;
     margin: auto;
-}
+} */
