@@ -14,20 +14,32 @@ h1 {
 p {
     padding-top: 20px;
     padding-bottom: 20px;
+    /* additional declarations */
+    font-family: cursive;
+    color: mediumslateblue;
+    font-size: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: 3px dotted rgb(216, 175, 237);
+    border-radius: 40px;
 }
 
 img {
     height: 200px;
     /* additional declarations */
     text-align: center;
-    border-top: 20px ridge rgb(146, 162, 162);
-    border-bottom: 20px ridge rgb(146, 162, 162);
-    background-image: url('https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fb4a11bd2-4c91-41ad-981b-868256fcf71d%2FUntitled.png?table=block&id=e811bad5-bb9e-4396-b741-151af89e7a8e&spaceId=e2735e9b-8fe9-4c16-bdc1-be142cd1014e&width=2350&userId=5c41ba8b-4def-41d1-abbb-73882249509d&cache=v2');
+    border-top: 20px ridge rgb(255, 150, 213);
+    border-bottom: 20px ridge rgb(255, 150, 213);
+    border-right: 20px double rgb(255, 150, 213);
+    border-left: 20px double rgb(255, 150, 213);
+    border-radius: 5px;
+    background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/d3848e6c-dc8f-4e16-bc82-b8cac5ca2a9f/da8ib0s-f045201c-92d3-4a39-98ea-2360e083c31b.png/v1/fill/w_1024,h_631,strp/commission__emma_dreamix_wings_by_himomangaartist_da8ib0s-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NjMxIiwicGF0aCI6IlwvZlwvZDM4NDhlNmMtZGM4Zi00ZTE2LWJjODItYjhjYWM1Y2EyYTlmXC9kYThpYjBzLWYwNDUyMDFjLTkyZDMtNGEzOS05OGVhLTIzNjBlMDgzYzMxYi5wbmciLCJ3aWR0aCI6Ijw9MTAyNCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.d7Cr6k5maN3dpjHtiQnxlNUj_QeSC3S2JWQHTIXytbM');
     padding-left: 250px;
     padding-right: 250px;
-    background-size: 8em;
+    background-size: 800px 350px;
+    background-repeat: no-repeat;
     background-position: center;
-    box-shadow: rgb(151, 145, 134) 20px 20px;
+    box-shadow: rgb(216, 175, 237) 20px 20px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -36,16 +48,26 @@ img {
 
 h3 {
     text-decoration: underline;
-    text-transform:uppercase;
+    /* additional declarations */
+    text-transform: lowercase;
+    background-color: rgb(203, 246, 247);
+    color: hotpink;
+    letter-spacing: 5px;
+    margin-right: 20px;
+    padding-bottom: 10px;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-bottom: outset;
 }
 
 ul {
     list-style-type: none;
     /* additional declarations */
-    float: left;
+    text-align: center;
     background-color: orange;
-    background-image: url('https://thumbs.dreamstime.com/b/seamless-texture-mathematical-signs-programming-languages-elements-symbols-blue-background-eps-139964104.jpg');
-    background-size: contain;
+    background-image: url('https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/screen-shot-2019-08-02-at-12-58-34-1564747130.png?resize=768:*');
+    background-size: cover;
+    background-position: bottom;
     margin-bottom: 30px;
     width: 600px;
     padding-bottom: 10px;
@@ -56,10 +78,11 @@ ul {
 ol {
     font-weight: bold;
     /* additional declarations */
+    text-align: center;
     list-style-type:upper-roman;
     margin-top: 35px;
     background-color: green;
-    background-image: url('https://images.ctfassets.net/q5lwz1whkyct/5RmvoqIqsWo3c1PFQLicOf/9fd4399a8df303b02e771420f5b9fd70/books-1200x880.png');
+    background-image: url('https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/screen-shot-2019-08-02-at-12-58-34-1564747130.png?resize=768:*');
     background-size: contain;
     width: 600px;
     padding-bottom: 38px;
@@ -73,13 +96,23 @@ li {
     color: blue;
     background-color: lightpink;
     padding-left: 30px;
+    /* additional declarations */
+    background-image: url('https://cdn.hovia.com/app/uploads/Pink-Marble-WEBSITE-SWATCH-820x532.jpg');
+    font-family: cursive;
+    letter-spacing: 2px;
+    margin: 5px;
 }
 
 /* additional declarations */
 h2 {
     font-style: italic;
     color: pink;
-    border: 5px dotted pink;
+    border: 5px solid pink;
+    border-top: 5px solid mediumslateblue;
+    border-left: 5px solid mediumslateblue;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
     display: inline-block;
     padding: 10px;
+    margin-left: 3%;
 }
