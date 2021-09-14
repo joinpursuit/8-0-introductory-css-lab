@@ -23,6 +23,7 @@ li{
 
 img{
     height: 200px;
+    opacity: .7;
 }
 
 body{
@@ -32,9 +33,20 @@ body{
 
 h3{
     text-decoration-line: underline;
+    border: 1px solid lightpink;
+    border-radius: 10px;
 }
 
 p{
     padding-top: 20px ;
     padding-bottom: 20px;
+    background-color: lightpink;
+    text-align: center;
+    border: 1px solid rgb(255,0,0);
+    border-radius: 10px;
+}
+
+html{
+   background-color: lightpink;
+   border: 21px dotted lawngreen; 
 }
