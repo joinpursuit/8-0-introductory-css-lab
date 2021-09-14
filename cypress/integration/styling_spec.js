@@ -19,7 +19,7 @@ describe('Styling', () => {
         .get('li')
         .should('have.css', 'text-align', 'center')
     })
-    it("List items have a 1px red boarder with curved corners", () => {
+    it("List items have a 1px red border with curved corners", () => {
         cy
         .get('li')
         .should('have.css', 'border', '1px solid rgb(255, 0, 0)').and('have.css', 'border-radius', '10px')
