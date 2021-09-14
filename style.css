@@ -23,14 +23,19 @@ li {
 }
 
 img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   height: 200px;
 }
 
 body {
   font-family: sans-serif;
+  background-color: rgb(44, 139, 202);
 }
 
 h3 {
+  font-family: Impact;
   text-decoration: underline;
 }
 
