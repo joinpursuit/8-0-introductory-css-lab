@@ -1,10 +1,18 @@
 h1 {
     font-family: 'Luminari';
     color: blue;
+    background-color:cornflowerblue
 }
 
 img {
 height: 200px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+border-style: groove;
+border-radius: 50%;
+border-color: blue;
+border-width: thick;
 }
 
 ul {
@@ -27,11 +35,16 @@ li {
 }
 
 body{
+    background-color: gold;
+    color:  blue;
     font-family: sans-serif;
 }
 
 h3 {
   text-decoration: underline;
+  color: black;
+  background-color:cornflowerblue
+  
 }
 
 p {
@@ -45,6 +58,12 @@ h1{
 
 li {
 padding-left: 30px;
+}
+
+h2{
+    color: black;
+    text-decoration: underline;
+    background-color:cornflowerblue
 }
 
 
