@@ -6,3 +6,7 @@ h1 {
 ul {
   list-style-type: none;
 }
+
+ol {
+  font-weight: bold;
+}
