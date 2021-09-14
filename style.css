@@ -99,6 +99,6 @@ ul {
 li {
   animation: test;
   animation-delay: 1000ms;
-  animation-duration: 3000ms;
+  animation-duration: 2000ms;
   animation-iteration-count: infinite;
 }
