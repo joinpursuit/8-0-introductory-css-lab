@@ -1,20 +1,53 @@
 img {
     height: 200px;
+    /*added small border around photo*/
+    border: 1px solid white;
 }
+
+
+/* centered the photo */
+.photo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+}
+
 
 h1 {
     font-family: 'Luminari';
     font-weight: bold;
     color: blue;
     font-size: 30px;    
+    /*  Center aligning the heading text*/
+    text-align: center;
+}
+
+h2 {
+    /* Center aligning the heading text*/
+    text-align: center;
 }
 
 h3 {
     text-decoration: underline;
+    /*center this h3 heading */
+    text-align: center;
+}
+
+p {
+    /*center the p text */
+    text-align: center;
+}
+
+.email {
+    /* added a class and centered email text */
+    text-align: center;
 }
 
 body {
     font-family: sans-serif;
+    /*  Chaging the body font color*/
+    color: grey;
 }
 
 p {
@@ -37,4 +70,14 @@ li {
 
 ul {
     list-style-type: none;
+}
+
+body {
+    /* Adding a background color */
+    background-color: wheat;
+}
+
+.bug-div {
+    /* whiting out bug */
+    background-color: white;
 }
