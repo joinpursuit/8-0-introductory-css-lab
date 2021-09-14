@@ -20,6 +20,7 @@ li {
 
     color:rgb(0, 0, 255);
     background-color: rgb(255, 182, 193);
+    padding-left: 30px;
 }
 
 img {
@@ -36,3 +37,6 @@ p {
     padding-bottom: 20px;
 }
 
+html{
+    background-color: transparent;
+}
