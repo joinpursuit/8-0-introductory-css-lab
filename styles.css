@@ -3,7 +3,7 @@ img {
 }
 
 h1 {
-    font-family: ‘Luminari’;
+    font-family: 'luminari';
     font-weight: bold;
     color: blue;
     font-size: 30px;    
@@ -32,7 +32,7 @@ li {
     background-color: lightpink;
     padding-left: 30px;
     border: 1px solid red;
-    border-radius: 15px;
+    border-radius: 10px;
 }
 
 ul {
