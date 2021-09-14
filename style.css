@@ -27,8 +27,7 @@ li {
 img {
   height: 200px;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 90%;
   padding: 3px;
   border: 5px solid #1e5162;
   box-shadow: 0 0 0 5px #296e85, 0 0 0 10px #43a6c6, 0 0 0 15px #8ac7db;
@@ -40,7 +39,7 @@ img:after {
 
 body {
   font-family: sans-serif;
-  background-image: radial-gradient(#89a203, #7a5901);
+  background-image: radial-gradient(circle at center, #89a203, #7a5901);
 }
 
 h3 {
@@ -52,7 +51,7 @@ h3 {
 p {
   padding-top: 20px;
   padding-bottom: 20px;
-  color: fuchsia;
+  color: purple;
 }
 
 li {
@@ -95,10 +94,56 @@ ul {
     top: 0px;
   }
 }
-
+h3 {
+  animation: test;
+  animation-duration: 1500ms;
+  animation-iteration-count: infinite;
+}
 li {
   animation: test;
   animation-delay: 1000ms;
   animation-duration: 2000ms;
+  animation-iteration-count: infinite;
+}
+
+@keyframes test2 {
+  0% {
+    background-color: fuchsia;
+    left: 0px;
+    top: 0px;
+  }
+  25% {
+    background-color: black;
+    left: 200px;
+    top: 0px;
+  }
+  50% {
+    background-color: tan;
+    left: 200px;
+    top: 200px;
+  }
+  75% {
+    background-color: gray;
+    left: 0px;
+    top: 200px;
+  }
+  100% {
+    background-color: orange;
+    left: 0px;
+    top: 0px;
+  }
+}
+
+p {
+  animation: test2;
+  animation-delay: 1000ms;
+  animation-duration: 2500ms;
+  animation-iteration-count: infinite;
+}
+
+h1 {
+  animation: test;
+  animation-delay: 650ms;
+  animation-duration: 2500ms;
   animation-iteration-count: infinite;
 }
