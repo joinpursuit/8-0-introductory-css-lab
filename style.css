@@ -1,0 +1,76 @@
+html {
+    background-color: rgb(231, 187, 169);
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+h1 {
+    font-family: Luminari;
+    font-size: 30px;
+    color: rgb(0, 0, 255);
+    text-align: center;
+}
+
+h2 {
+    text-decoration: underline;
+    font-family: monospace;
+    background-color: lightgrey;
+    opacity: 0.6;
+    text-align: center;
+}
+
+p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: monospace;
+    text-align: center;
+}
+
+h3 {
+    text-decoration: underline;
+    font-family: monospace;
+    background-color: lightgray;
+    text-align: left;
+    opacity: 0.6;
+}
+
+img {
+    height: 200px;
+}
+
+ul {
+    list-style: none;
+    font-weight: bold;
+    font-family: monospace
+}
+
+ol {
+    font-weight: bold;
+    list-style: none;
+    font-family: monospace
+}
+
+
+li {
+    text-align: center;
+    color: blue;
+    background-color: rgb(255, 182, 193);
+    border: 1px solid red;
+    border-radius: 10px;
+    padding-left: 30px;
+    font-family: monospace;
+}
+
+
+body {
+    font-family: sans-serif;
+}
+
+
+div {
+    font-family: monospace;
+    text-align: center;
+}
