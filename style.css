@@ -1,0 +1,49 @@
+body {
+    font-family: sans-serif;
+    color: black;
+    background-color: bisque;
+}
+h1 {
+    font-family: 'Luminari';
+    color: blue;
+    font-size: 30px;
+    
+}
+
+div ul {
+  list-style-type: none;
+
+}
+
+div ol {
+    font-weight :700;
+}
+
+li {
+   text-align:center;
+   border : 1px solid rgb(255, 0, 0);
+   border-radius: 10px;
+   color:rgb(0, 0, 255);
+   background-color:rgb(255, 182, 193);
+   padding-left: 30px;
+}
+
+li:hover {
+    padding:10px;
+    transition : 0.6s;
+
+}
+
+img {
+    height: 200px;
+
+}
+
+h3 {
+text-decoration: underline;
+}
+
+p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
