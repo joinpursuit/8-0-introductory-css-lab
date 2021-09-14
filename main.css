@@ -10,3 +10,7 @@ ul {
 ol {
   font-weight: bold;
 }
+
+li {
+  text-align: center;
+}
