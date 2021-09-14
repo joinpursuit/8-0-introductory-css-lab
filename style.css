@@ -30,7 +30,8 @@ img {
   margin-left: auto;
   margin-right: auto;
   padding: 3px;
-  border: 2px solid red;
+  border: 5px solid #1e5162;
+  box-shadow: 0 0 0 5px #296e85, 0 0 0 10px #43a6c6, 0 0 0 15px #8ac7db;
 }
 img:after {
   padding: 3px;
@@ -39,15 +40,65 @@ img:after {
 
 body {
   font-family: sans-serif;
-  background-image: radial-gradient(white, rgb(59, 174, 212));
+  background-image: radial-gradient(#89a203, #7a5901);
 }
 
 h3 {
   text-decoration: underline;
   font-size: 18px;
+  color: red;
 }
 
 p {
   padding-top: 20px;
   padding-bottom: 20px;
+  color: fuchsia;
+}
+
+li {
+  background-color: salmon;
+  color: beige;
+}
+
+a {
+  color: orange;
+}
+
+ul {
+  color: cyan;
+}
+
+@keyframes test {
+  0% {
+    background-color: red;
+    left: 0px;
+    top: 0px;
+  }
+  25% {
+    background-color: yellow;
+    left: 200px;
+    top: 0px;
+  }
+  50% {
+    background-color: blue;
+    left: 200px;
+    top: 200px;
+  }
+  75% {
+    background-color: green;
+    left: 0px;
+    top: 200px;
+  }
+  100% {
+    background-color: red;
+    left: 0px;
+    top: 0px;
+  }
+}
+
+li {
+  animation: test;
+  animation-delay: 1000ms;
+  animation-duration: 3000ms;
+  animation-iteration-count: infinite;
 }
