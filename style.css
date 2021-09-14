@@ -1,0 +1,60 @@
+h1 {
+    font-family: Luminari;
+    color: blue;
+    text-align: center;
+    background-color: lightpink;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ol {
+    font-weight: bold;
+}
+
+li {
+    text-align: center;
+    border: 1px red solid;
+    border-radius: 10px;
+    color: blue;
+    background-color: lightpink;
+    padding-left: 30px;
+    margin: 10px;
+}
+
+img {
+    height: 200px;
+    border: 10px dashed blue;
+    background-color: skyblue;
+    margin-right: 50%;
+    margin-left: 41%;
+    border-radius: 15px;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+h3 {
+    text-decoration-line: underline;
+    background-color: skyblue;
+}
+
+p {
+    padding: 20px 20px;
+    text-align: center;
+    background-color: lightpink;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+h2 {
+    background-color: skyblue;
+}
+
+div {
+    margin: 30px 30px;
+}
