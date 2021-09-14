@@ -2,16 +2,19 @@ h1 {
   font-family: "Luminari";
   color: blue;
   font-size: 30px;
+  transform: rotate(-40deg);
 }
 
 ul {
   list-style-type: none;
   font-size: 16px;
+  transform: rotate(-20deg);
 }
 
 ol {
   font-weight: bold;
   font-size: 16px;
+  transform: rotate(3deg);
 }
 
 li {
@@ -29,6 +32,7 @@ img {
   display: block;
   margin-left: 90%;
   padding: 3px;
+  transform: rotate(-3deg);
   border: 5px solid #1e5162;
   box-shadow: 0 0 0 5px #296e85, 0 0 0 10px #43a6c6, 0 0 0 15px #8ac7db;
 }
@@ -46,12 +50,14 @@ h3 {
   text-decoration: underline;
   font-size: 18px;
   color: red;
+  transform: skew(10deg, 30deg);
 }
 
 p {
   padding-top: 20px;
   padding-bottom: 20px;
   color: purple;
+  transform: skew(-10deg, -30deg);
 }
 
 li {
@@ -123,7 +129,7 @@ li {
     top: 200px;
   }
   75% {
-    background-color: gray;
+    background-color: purple;
     left: 0px;
     top: 200px;
   }
