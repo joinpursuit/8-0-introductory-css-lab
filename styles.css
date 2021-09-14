@@ -1,5 +1,9 @@
 body {
     font-family: sans-serif;
+    /* additional */
+    background-image: url('https://i.pinimg.com/originals/58/bd/4f/58bd4fc9ebfccc1f2de419529bbf1a12.jpg');
+    background-color: white;
+    color: white;
 }
 
 h1 {
@@ -9,6 +13,12 @@ h1 {
     /* additional declarations */
     filter: drop-shadow(1px 10px 4px black);
     font-variant: small-caps;
+    opacity: 0.8;
+    display: inline;
+    background-color: white;
+    border-radius: 40px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 p {
@@ -22,6 +32,8 @@ p {
     padding-right: 30px;
     border: 3px dotted rgb(216, 175, 237);
     border-radius: 40px;
+    background-color: white;
+    opacity: 0.8;
 }
 
 img {
