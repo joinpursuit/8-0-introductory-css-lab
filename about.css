@@ -1,0 +1,39 @@
+body {
+    font-family: sans-serif;
+}
+
+h1 {
+    font-family: Luminari;
+    font-size: 30px;
+    color: blue;
+}
+
+h3 {
+    text-decoration: underline;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ol {
+    font-weight: bold;
+}
+
+li {
+    text-align: center;
+    border: 1px solid rgb(255, 0, 0);
+    border-radius: 10px;
+    color: blue;
+    background-color: lightpink;
+    padding-left: 30px;
+}
+
+img {
+    height: 200px;
+}
+
+p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
