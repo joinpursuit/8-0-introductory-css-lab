@@ -1,7 +1,8 @@
 h1 {
     font-family: Luminari;
     color: rgb(0,0,255);
-    font-size: 30px;
+    font-size: 45px;
+    text-align: center;
 }
 
 ul {
@@ -24,7 +25,26 @@ li {
 
 img {
     height: 200px;
+    width: 350px;
+    border: 1px solid rgb(240, 10, 10);
+    border-radius: 4px;
+    padding: 3px;
 }
+
+img {
+    border-radius: 50%;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img:hover {
+    box-shadow: 0 0 2px 2px rgba(241, 6, 6, 0.5);
+}
+
 
 body {
     font-family: sans-serif;
@@ -32,6 +52,11 @@ body {
 
 h3 {
     text-decoration: underline;
+    font-family: Luminary;
+    color: red;
+    font-weight: 700;
+    font-size: 24px;
+    margin: 70px;
 }
 
 p {
