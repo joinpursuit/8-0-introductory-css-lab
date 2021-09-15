@@ -68,6 +68,86 @@ h1 {
     animation-iteration-count: infinite;
 }
 
+.glowing {
+    position: center;
+    min-width: 640px;
+    height: 640px;
+    margin: 140px;
+}
+
+.glowing span {
+    position: absolute;
+    top: calc(.6px * var(--i));
+    left: calc(80px * var(--i));
+    bottom: calc(.4px * var(--i));
+    right: calc(80px * var(--i));
+}
+
+.glowing span:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: -6px;
+    width: 15px;
+    height: 15px;
+    background: lightyellow;
+    border-radius: 50%;
+}
+
+.glowing span:nth-child(3n + 1):before {
+    background: linen;
+    box-shadow: 0 0 20px linen,
+                0 0 40px linen,
+                0 0 60px linen,
+                0 0 80px linen,
+                0 0 0 8px linen;
+}
+
+.glowing span:nth-child(3n + 2):before {
+    background: linen;
+    box-shadow: 0 0 20px rgb(204, 200, 195),
+                0 0 40px rgb(204, 200, 195),
+                0 0 60px rgb(204, 200, 195),
+                0 0 80px rgb(204, 200, 195);
+}
+
+.glowing span:nth-child(3n + 1) {
+    animation: animate 6s alternate infinite;
+}
+
+.glowing span:nth-child(3n + 2) {
+    animation: animate-reverse 4s alternate infinite;
+}
+
+.glowing span:nth-child(3n + 3) {
+    animation: animate 6s alternate infinite;
+}
+
+.glowing span:nth-child(3n + 4) {
+    animation: animate-reverse 6s alternate infinite;
+}
+
+.glowing span:nth-child(3n + 5) {
+    animation: animate 4s alternate infinite;
+}
+
+@keyframes animate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes animate-reverse {
+    0% {
+        transform: rotate(360deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
 
 @keyframes basicanimation {
     0% {background-color:bisque;}
