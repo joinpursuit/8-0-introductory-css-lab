@@ -3,6 +3,7 @@ h1 {
     font-family: Luminari;
     color: rgb(0, 0, 255);
     font-size: 30px;
+    padding-top: 0%;
 }
 
 ul {
@@ -20,18 +21,73 @@ li {
     color: blue;
     background-color: rgb(255,182,193);
     padding-left: 30px;
+    font-size: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;  
+    display: flex;
+    flex-direction: column;
+
+    padding: 10px;
+    background: linear-gradient(to top, #3d3533, #110b13 50%);
+    background-size: 100% 200%;
+    transition: all 1.3s;
 }
 
-img {
-height: 200px;
+
+  li:hover{
+    background-position: left bottom;
+    color: #F1F0FF;
+    border: none;
+    box-shadow: 0 0 20px rgb(255, 45, 45);
+  }
+
+
+
+
+.image-test {
+    width: 130px;
+    height: 195px;
+    position: relative;
+    display: inline-block;
+    opacity: 70%;
+   
+
 }
 
+
+.image-test .test {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+   
+}
+
+.image-test:hover .test {
+    /* width: 900px;
+    height: auto; */
+    display: inline;
+    
+  }
+
+ 
 body {
     font-family: sans-serif;
+    /* background-image: radial-gradient(circle, rgb(173, 105, 105,1), rgb(147, 128, 255,0.5), rgb(189, 5, 195,0), rgb(225,0,0,1),rgb(39, 255, 39)); */
+    background-image: url("https://storage.googleapis.com/jjalbot-jjals/2016/10/ByG_TwTLR/20150403_551e654b5268b.jpg");
+    background-repeat: round;
+    background-size: 200px 150px;
+    
+
 }
+
 
 h3 {
     text-decoration: underline;
+    color: hotpink;
+    font-weight: 900;
+    text-shadow: 2px 2px #100327;
 }
 
 p {
@@ -39,5 +95,151 @@ p {
     padding-bottom: 20px;
 }
 
+h2 {
+    color: silver;
+    text-shadow: 2px 2px #610101;
+}
 
 
+  
+  .pulse {
+    background-color: coral;
+    height: 20vmax;
+    width: 20vmax;
+    border-radius: 100%;
+    position: relative;
+  }
+  .ring {
+    position: fixed;
+    background-color: inherit;
+    height: 100%;
+    width: 100%;
+    border-radius: 100%;
+    opacity: 0.8;
+    animation: pulsing 2s ease-out infinite;
+  
+    &:nth-of-type(1) {
+      animation-delay: -0.5s;
+    }
+    &:nth-of-type(2) {
+      animation-delay: -1s;
+    }
+    &:nth-of-type(3) {
+      animation-delay: -1.5s;
+    }
+  }
+  
+  @keyframes pulsing {
+    100% {
+      transform: scale(1.75);
+      opacity: 0;
+    }
+  }
+  
+
+  .neonText {
+    color: #fff;
+    text-shadow:
+        0 0 7px #fff,
+        0 0 10px #fff,
+        0 0 21px #fff,
+        0 0 42px #0fa,
+        0 0 82px #0fa,
+        0 0 92px #0fa,
+        0 0 102px #0fa,
+        0 0 151px #0fa;
+  }
+  /* .neonText {
+    color: #fff;
+    text-shadow:
+        0 0 7px #fff,
+        0 0 10px #fff,
+        0 0 21px #fff,
+        0 0 42px #5271ff,
+        0 0 82px #5271ff,
+        0 0 92px #5271ff,
+        0 0 102px #5271ff,
+        0 0 151px #5271ff;
+  } */
+  
+  .container h1 {
+    font-size: 9.2rem;
+    animation: flicker 1.5s infinite alternate;     
+  }
+  
+
+  @keyframes flicker {
+      
+    0%, 18%, 22%, 25%, 53%, 57%, 100% {
+  
+        text-shadow:
+        0 0 4px #fff,
+        0 0 11px #fff,
+        0 0 19px #fff,
+        0 0 40px #0fa,
+        0 0 80px #0fa,
+        0 0 90px #0fa,
+        0 0 100px #0fa,
+        0 0 150px #0fa;
+    
+    }
+    
+    20%, 24%, 55% {        
+        text-shadow: none;
+    }    
+  }
+  
+
+/* @keyframes pulsate {
+    
+  100% {
+
+      text-shadow:
+      0 0 4px #fff,
+      0 0 11px #fff,
+      0 0 19px #fff,
+      0 0 40px #5271ff,
+      0 0 80px #5271ff,
+      0 0 90px #5271ff,
+      0 0 100px #5271ff,
+      0 0 150px #5271ff;
+  
+  }
+  
+  0% {
+
+    text-shadow:
+    0 0 4px #fff,
+    0 0 10px #fff,
+    0 0 18px #fff,
+    0 0 38px #5271ff,
+    0 0 73px #5271ff,
+    0 0 80px #5271ff,
+    0 0 94px #5271ff,
+    0 0 140px #5271ff;
+
+} */
+  
+  /* Additional styling */
+    
+  .container h2 {
+   font-size: 1.8rem;
+  }
+  .container {
+    margin-top: 20vh;
+  }
+  
+  .back-body {
+    padding-top: 1px;
+    font-size: 10px;
+    font-family: "Helvetica Neue", sans-serif;
+    background-color: #000000;
+    opacity: 70%;
+    display: flexbox;
+  }  
+  
+  .container h1, h2 {
+    text-align: center;
+   
+    font-weight: 400;
+  }
