@@ -1,0 +1,54 @@
+h1 {
+    font-family: Luminari;
+    color: blue;
+    font-size: 30px;
+    background-color: orchid;
+    text-transform: uppercase;
+
+}
+
+ul {
+    list-style-type: none;
+    background-color: paleturquoise;
+}
+
+ol {
+    font-weight: bold;
+    background-color: rgb(25, 0, 255);
+    text-transform: lowercase;
+}
+
+li {
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid #ff0000;
+    padding: 30px;
+    color: blue;
+    background-color: lightpink;
+    text-transform: uppercase;
+}
+
+img {
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    
+}
+
+body{
+    font-family: sans-serif;
+    background-color: lime; 
+    text-transform: uppercase;
+}
+
+h3{
+    text-decoration: underline;
+    background-color: maroon;
+}
+
+p{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: mediumpurple;
+}
