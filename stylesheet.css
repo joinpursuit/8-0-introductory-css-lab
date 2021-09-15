@@ -2,6 +2,9 @@ h1 {
     font-family: Luminari;
     color: blue;
     font-size: 30px;
+    background-image: url(https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-2695569_1280.jpg);
+    padding: 30px;
+    margin: 10px
 }
 
 h3 {
