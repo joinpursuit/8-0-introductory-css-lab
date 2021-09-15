@@ -35,11 +35,11 @@ li {
     color: blue;
     background-color: lightpink;
     text-align: center;
-    border-style: dashed inset;
-    border-color: red;
+    border-style: solid;
+    border-color: rgb(255, 0, 0);
     border-width: 1px;
     padding-left: 30px;
-    border-radius: 30px;
+    border-radius: 10px;
 }
 
 ul {
