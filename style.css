@@ -1,39 +1,55 @@
 h1 {
-    font-family:Luminari; 
+    font-family: Luminari;
     color: rgb(0, 0, 255);
     font-size: 30px;
-}
-
-ul {
+  }
+  
+  ul {
     list-style-type: none;
-}
-
-ol {
-    font-weight:700
-}
-li {
-border: 1px solid rgb(255, 0, 0);
-text-align: center;
-border-radius: 10px;
-color: rgb(0, 0, 255);
-background-color: rgb(255, 182, 193);
-padding-left:30px
-}
-
-img {
-    height:200px
-}
-
-body{
-    font-family:sans-serif;
-}
-h3 {
-    text-decoration: underline;
-    padding-left:30px
-}
-
-p {
+    padding-bottom: 50px;
+    margin: 20px;
+  }
+  
+  ol {
+    font-weight: 700;
+  }
+  li {
+    border: 1px solid rgb(255, 0, 0);
+    text-align: center;
+    border-radius: 10px;
+    color: rgb(0, 0, 255);
+    background-color: rgb(255, 182, 193);
     padding-left: 30px;
-    padding-top:20px;
-    padding-bottom:20px;
-}
+  }
+  
+  img {
+    height: 200px;
+    border: 3px solid rgb(0, 0, 0);
+    box-shadow: 5px 5px 5px 5px rgba(0, 140, 186, 0.5);
+  }
+  img:hover {
+    border: 2px solid #73ad21;
+    color: rgb(255, 0, 0);
+    box-shadow: 5px 5px 5px 5px rgba(18, 189, 104, 0.5);
+  }
+  
+  body {
+    font-family: sans-serif;
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQo4aOH83P7WrhdFQaGzMlJIc0w3x1f77yHA&usqp=CAU");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    display: grid;
+    place-items: center;
+  }
+  h3 {
+    text-decoration: underline;
+    padding-left: 30px;
+  }
+  
+  p {
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgb(121, 121, 204);
+  }
