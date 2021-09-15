@@ -1,0 +1,43 @@
+h1 {
+  font-family: Luminari;
+}
+ul{style="list-style-type: none"}
+h1 {
+  color: blue;
+}
+ol {
+  font-weight: bold;
+}
+li {
+  text-align: center;
+}
+li {
+  border: 1px solid red;
+  border-radius: 10px;
+}
+li {
+  color: blue;
+  background-color: lightpink;
+}
+img {
+  height: 200px;
+}
+body {
+  font-family: sans-serif;
+}
+h3 {
+  text-decoration: underline;
+}
+p {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+h1 {
+  font-size: 30px;
+}
+li {
+  padding-left: 30px;
+}
+ul{
+  animation: blinker 0.6s linear infinite;
+}
