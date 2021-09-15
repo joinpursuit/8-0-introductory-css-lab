@@ -1,0 +1,58 @@
+h1 {
+  font-family: Luminari;
+  color: blue;
+  font-size: 30px;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+ol {
+  font-weight: 700;
+}
+
+li {
+  text-align: center;
+  border: 1px solid red;
+  border-radius: 10px;
+  color: blue;
+  background-color: lightpink;
+  padding-left: 30px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+img {
+  height: 200px;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+body {
+  font-family: sans-serif;
+  
+    background-color: red; 
+    background-image: radial-gradient(circle, rgb(219, 146, 146), rgb(241, 241, 234), rgb(134, 172, 197))
+}
+
+
+h3 {
+    text-decoration-line: underline;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+p{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+}
+
+.join {
+    color: black;
+}
