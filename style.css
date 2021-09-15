@@ -17,8 +17,7 @@ li {
     text-align: center;
     background-color: lightpink;
     padding-left: 30px;
-    border: 1px solid;
-    border-style: rgb(255, 0, 0);
+    border: 1px solid rgb(255, 0, 0);
     border-radius:10px;
 }
 
