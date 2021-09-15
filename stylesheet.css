@@ -27,14 +27,29 @@ li {
 
 img {
     width: auto;
-    height: 200px;
+    height: 300px;
+    border-radius: 100%;
 }
 
 body {
     font-family: sans-serif;
+    background-color: black;
+    color: wheat;
+    
 }
 
 p {
     padding-top: 20px;
     padding-bottom: 20px;
+    text-align: center;
+}
+
+img {
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    height: 200px;
+    border: 5px solid wheat;
 }
