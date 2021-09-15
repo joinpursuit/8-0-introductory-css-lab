@@ -31,9 +31,38 @@ body {
 
 h3 {
     text-decoration-line: underline;
+    color: rgb(0, 0, 255);
 }
 
-p{
+h2 {
+    text-decoration-line: underline;
+    color: rgb(0, 0, 255);
+}
+
+p {
     padding-top: 20px;
     padding-bottom: 20px;
+    text-align: center;
+    border: 1px solid rgb(255, 0, 0);
+    border-radius: 10px;
+    color: rgb(0, 0, 255);
+    background-color: rgb(255, 182, 193);
+    padding-left: 30px;
+}
+
+.container { 
+    background: 
+    linear-gradient(blueviolet 0%, orange 90%), 
+    linear-gradient(to right, indigo 0%, green 90%),
+    url(assets/ayeyaiyai.jpeg) 20px,
+    url(assets/ayeyaiyai.jpeg) 30px;
+    background-blend-mode: screen, difference, lighten;
+}
+
+.Bio {
+    border: 1px solid rgb(255, 0, 0);
+    border-radius: 10px;
+    color: rgb(0, 0, 255);
+    background-color: rgb(255, 182, 193);
+    padding-left: 30px;
 }
