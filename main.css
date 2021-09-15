@@ -19,6 +19,7 @@ li {
   color: blue;
   background-color: rgb(255, 182, 193);
   padding-left: 30px;
+  background-image: url("assets/example-page.png");
 }
 
 img {
@@ -27,13 +28,29 @@ img {
 
 body {
   font-family: sans-serif;
+  color: yellow;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: thistle;
 }
 
 h3 {
+  text-decoration: underline;
+  font-family: chalkduster;
+  color: gold;
+}
+
+h2 {
+  font-family: chalkduster;
+  color: blueviolet;
   text-decoration: underline;
 }
 
 p {
   padding-top: 20px;
   padding-bottom: 20px;
+}
+
+div {
+  background-image: url("https://www.fillmurray.com/300/200");
 }
