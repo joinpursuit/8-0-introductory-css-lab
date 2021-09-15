@@ -1,0 +1,78 @@
+h1 {
+    font-family: Luminari;
+    color: blue;
+    text-decoration: underline;
+    background:linear-gradient(to right, rgba(44, 106, 148, 0), rgb(67, 111, 194))
+}
+
+h4 {
+    font-weight: bold;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ol {
+    font-weight: bold;
+}
+
+li {
+    text-align: center;
+    border: 1px solid red;
+    border-radius: 10px;
+    color:blue;
+    background-color: lightpink;
+    padding-left: 30px;
+}
+
+img {
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body {
+    font-family: sans-serif;
+    background: radial-gradient(#e66465, #9198e5);
+}
+
+h3 {
+    text-decoration: underline;
+    background: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+}
+
+p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+h2 {
+    text-decoration: underline;
+    background: linear-gradient(to right, rgba(188, 136, 201, 0), rgb(169, 105, 189));
+}
+
+h1 {
+    font-size: 30px;
+}
+
+.box {
+    background: bisque;
+    width: 1420px;
+    height: 60px;
+    position: relative;
+    animation-name: basicanimation;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes basicanimation {
+    0% {background-color:bisque;}
+    25% {background-color:lightseagreen;}
+    50% {background-color:lightsalmon;}
+    75% {background-color:mediumturquoise;}
+    100% {background-color:plum;}
+}
