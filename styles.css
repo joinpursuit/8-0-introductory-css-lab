@@ -1,11 +1,16 @@
+body {
+    background-image: url("https://www.krugerpark.co.za/images/black-maned-lion-shem-compion-590x390.jpg");
+}
+
 h1 {
     font-family: Luminari;
     color: blue;
     font-size: 30px;
+    text-align: center;
 }
 
 ul {
-    border:  red;
+    border: 1px solid red;
     border-radius: 1px curved red;
     text-align: center;
     list-style: none;
@@ -29,8 +34,10 @@ li {
     color: blue;
 }
 
-img {
-    text-align: center;
+body img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     height: 200px;
 }
 
@@ -45,4 +52,9 @@ h3 {
 p {
     padding-top: 20px;
     padding-bottom: 20px;
+}
+div h3 {
+    text-align: left;
+    font-size: 20px;
+    color: green;
 }
