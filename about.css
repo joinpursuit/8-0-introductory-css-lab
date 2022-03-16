@@ -1,0 +1,66 @@
+body {
+  font-family: sans-serif;
+  animation: bodyBackgroundColor 30s infinite;
+}
+@keyframes bodyBackgroundColor {
+  0% { background-color: red; }
+  25% { background-color: cyan; }
+  50% { background-color: green; }
+  75% { background-color: brown; }
+  100% { background-color: red; }
+}
+
+h1 {
+  font-size: 30px;
+  font-family: 'Luminari';
+  color: blue;
+  animation: h1BackgroundColor 15s infinite;
+}
+@keyframes h1BackgroundColor {
+  25% { background-color: lavender; }
+  50% { background-color: lemonchiffon; }
+  99% { background-color: lightcoral; }
+}
+
+h3 {
+  display: inline;
+  text-decoration: underline;
+  color: chartreuse;
+  border: 5px dashed black;
+  animation: h3BorderColor 10s infinite;
+}
+@keyframes h3BorderColor {
+  15% { border-color: wheat; }
+  30% { border-color: aquamarine; }
+  45% { border-color: ivory; }
+  60% { border-color: thistle; }
+  85% { border-color: cadetblue; }
+  99% { border-color: slategray; }
+}
+
+p {
+  padding: 20px 0 20px 0;
+  color: white;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ol {
+  font-weight: bold;
+}
+
+li {
+  text-align: center;
+  border: 1px solid rgb(255, 0, 0);
+  border-radius: 10px;
+  color:rgb(0, 0, 255);
+  background-color: lightpink;
+  padding-left: 30px;
+}
+
+img {
+  height: 200px;
+  border: 3px dotted gold;
+}
