@@ -1,0 +1,56 @@
+h1 {
+  color: blue;
+  font-family: Luminari;
+  font-size: 30px;
+  text-align: center;
+}
+.introText {
+  text-align: center;
+}
+ul {
+  list-style: none;
+}
+ol {
+  font-weight: 700;
+}
+li {
+  text-align: center;
+  border: 1px solid rgb(255, 0, 0);
+  border-radius: 10px;
+  color: rgb(0, 0, 255);
+  background-color: rgb(255, 182, 193);
+  padding-left: 30px;
+}
+img {
+  height: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+body {
+  font-family: sans-serif;
+  background: linear-gradient(
+      85deg,
+      rgba(13, 113, 196, 0.842) 39%,
+      rgba(189, 24, 87, 0.904) 96%
+    )
+    center center / auto no-repeat;
+}
+h3 {
+  text-decoration-line: underline;
+  padding-left: 30px;
+}
+h2 {
+  padding-left: 30px;
+}
+a {
+  padding-left: 40px;
+}
+.emailDiv {
+  padding-left: 40px;
+}
+p {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 40px;
+}
