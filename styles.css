@@ -1,0 +1,15 @@
+h1 {
+  font-family: Luminari;
+  color: blue;
+}
+ul {
+  list-style-type: none;
+}
+ol {
+  font-weight: bold;
+}
+li {
+  text-align: center;
+  border: 1px solid red;
+  border-radius: 10px;
+}
