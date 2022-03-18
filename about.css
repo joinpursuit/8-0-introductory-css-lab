@@ -1,0 +1,43 @@
+h1 {
+  color: blue;
+  font-family: Luminari;
+  font-size: 30px;
+  text-shadow: 4px 4px 4px #000000;
+}
+ul {
+  list-style: none;
+}
+ol {
+  font-weight: 700;
+}
+li {
+  text-align: center;
+  border: 1px solid rgb(255, 0, 0);
+  border-radius: 10px;
+  color: rgb(0, 0, 255);
+  background-color: rgb(255, 182, 193);
+  padding-left: 30px
+}
+img {
+    height: 200px;
+    margin: 0 0 15px 20px;
+    padding: 15px;
+    border: 3px solid purple;
+}
+body {
+    font-family: sans-serif;
+    background-image: linear-gradient(green, yellow);
+}
+h3 {
+    text-decoration-line: underline;
+}
+p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-style: double;
+    border-width: 15px;
+    border-bottom-color: yellowgreen;
+    background-color: yellow;
+}
+
+border', '1px solid rgb(255, 0, 0)').and('have.css', 'border-radius', '10px'
