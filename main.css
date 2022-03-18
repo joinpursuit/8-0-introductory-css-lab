@@ -2,6 +2,7 @@ h1 {
   font-family: Luminari;
   color: blue;
   font-size: 30px;
+  text-align: right;
 }
 
 ul {
@@ -24,6 +25,8 @@ li {
 
 img {
   height: 200px;
+  border: 5px black solid;
+  align-items: center;
 }
 
 body {
