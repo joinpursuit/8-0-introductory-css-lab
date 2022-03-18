@@ -1,0 +1,63 @@
+h1 {
+  font-family: Luminari;
+  color: blue;
+  font-size: 30px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ol {
+  font-weight: 700;
+}
+
+li {
+  text-align: center;
+  border: 1px solid red;
+  border-radius: 10px;
+  color: blue;
+  background-color: lightpink;
+  padding-left: 30px;
+}
+
+img {
+  height: 200px;
+  border-radius: 70%;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: cyan;
+}
+
+h3 {
+  text-decoration: underline;
+  text-align: center;
+  color: blue;
+}
+
+p {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+p.intro {
+  color: green;
+  font-size: 30px;
+  font-family: serif;
+}
+
+h2 {
+  color: green;
+  font-size: 60px;
+  font-family: serif;
+  text-align: center;
+}
+
+.email {
+  text-align: center;
+  text-decoration: underline;
+  font-size: 30px;
+}
