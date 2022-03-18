@@ -1,0 +1,49 @@
+/** @format */
+
+h1 {
+	color: blue;
+	font-family: Luminari;
+	font-size: 30px;
+}
+
+p {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+h3 {
+	text-decoration: underline;
+	color: rgb(125, 0, 0);
+}
+
+li {
+	color: rgb(0, 0, 255);
+	background-color: rgb(255, 182, 193);
+	text-align: center;
+	border: 1px red solid;
+	border-radius: 10px;
+	padding-left: 30px;
+}
+
+ul {
+	list-style: none;
+	font-family: Cambria;
+	background-color: blueviolet;
+}
+
+ol {
+	font-weight: bold;
+	background-color: blueviolet;
+}
+
+img {
+	height: 200px;
+	padding: 20px;
+}
+
+body {
+	font-family: sans-serif;
+	text-align: center;
+	text-shadow: 1px 1px 2px pink;
+	color: rgb(119, 18, 94);
+}
