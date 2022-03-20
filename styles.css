@@ -1,0 +1,55 @@
+/** @format */
+
+h1 {
+  text-shadow: 4px 4px 4px red;
+  font-family: 'Luminari';
+  color: blue;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ol {
+  font-weight: bold;
+}
+
+li {
+  text-align: center;
+  border: 1px solid red;
+  border-radius: 10px;
+  color: blue;
+  background-color: lightpink;
+  padding-left: 30px;
+}
+
+img {
+  height: 200px;
+  border-radius: 100px;
+  border: 4px outset pink;
+}
+
+body {
+  font-family: sans-serif;
+  background-image: url('assets/neo-background.webp');
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h3 {
+  text-decoration: underline;
+  color: gold;
+}
+
+p {
+  padding: 20px 0;
+  color: azure;
+}
+
+div {
+  color: gold;
+}
