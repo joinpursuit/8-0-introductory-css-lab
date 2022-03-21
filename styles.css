@@ -34,3 +34,35 @@ h1 {
 li {
   padding-left: 30px;
 }
+/* additional Declarations below */
+html {
+  background-color: teal;
+  background: radial-gradient(
+    square,
+    rgba(159, 193, 201, 1) 9%,
+    rgba(224, 209, 221, 1) 52%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+ul {
+  color: solid purple;
+  text-decoration-line: underline overline;
+}
+ol {
+  color: solid purple;
+  text-decoration-line: underline overline;
+}
+h1 {
+  text-align: center;
+}
+h2 {
+  font-family: Trebuchet 'Trebuchet MS';
+  text-decoration-line: underline overline;
+  color: aquamarine;
+  text-align: center;
+}
+h3 {
+  font-family: 'Franklin Gothic Medium';
+  color: aquamarine;
+  text-align: center;
+}
