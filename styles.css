@@ -1,0 +1,169 @@
+body {
+	padding: 0;
+	margin: auto;
+	text-align: justify;
+	font-family: sans-serif;
+	line-height: 2em;
+	background-color: #f3f3f3;
+}
+.root {
+}
+h1 {
+	margin: 0;
+	text-transform: uppercase;
+	letter-spacing: 10px;
+	font-size: 30px;
+	font-weight: 800;
+	font-family: 'Luminari';
+	color: rgba(0, 0, 255);
+}
+h2 {
+	/* letter-spacing: 3px; */
+	margin: 0;
+	font-weight: 600;
+	line-height: 2em;
+}
+h3 {
+	margin: 0;
+	text-decoration-line: underline;
+}
+p {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin: 0;
+}
+a {
+	padding: 0 1em;
+	display: block;
+	color: #333;
+	font-weight: 600;
+	text-decoration: none;
+}
+ul {
+	list-style-type: none;
+}
+ul li {
+	padding-left: 30px;
+	text-align: center;
+	font-size: 1.4rem;
+	line-height: 2.4rem;
+	border: 1px solid rgb(255, 0, 0);
+	border-radius: 10px;
+	color: rgba(0, 0, 255);
+	background-color: rgb(255, 182, 193);
+}
+ol {
+	font-weight: 700;
+}
+li {
+}
+img {
+	width: 200px;
+	height: 200px;
+}
+/**/
+.container {
+	width: 60rem;
+	padding: 2rem 0;
+	margin: auto;
+}
+.main-title {
+	padding: 1rem 0;
+	text-align: center;
+}
+.main-title h1 {
+}
+.profile-data {
+	padding: 2rem 0;
+	display: flex;
+}
+.profile-data img {
+	padding: 10px;
+}
+.profile-data .bio {
+	padding: 0 4rem;
+}
+.profile-data .bio p {
+	font-size: 1.8rem;
+	line-height: 2.8rem;
+}
+.main-subtitle {
+	text-align: center;
+}
+.main-subtitle h2 {
+	margin: 0;
+	font-size: 3rem;
+	color: #fff;
+}
+.skills {
+	display: flex;
+}
+.skills h3 {
+	font-size: 2rem;
+	line-height: 2.8rem;
+	text-align: center;
+}
+.skills .skillset {
+	width: 50%;
+}
+.skills .skillset ol li {
+	font-size: 1.4rem;
+}
+.bug-info {
+	text-align: center;
+}
+.bug-info h3 {
+	font-size: 2.8rem;
+	line-height: 3.8rem;
+	text-decoration: none;
+	color: #ec255a;
+}
+.bug-info p {
+	font-size: 2rem;
+	color: #f2789f;
+}
+.contact {
+}
+.contact h2 {
+	font-size: 3rem;
+	/* text-transform: uppercase; */
+	text-align: center;
+	color: #fff;
+}
+.contact .email {
+	text-align: center;
+}
+.contact .email a {
+	letter-spacing: 1rem;
+	font-size: 1.4rem;
+	color: #ccc;
+}
+.contact ul {
+	margin: 4rem 0;
+	display: flex;
+}
+.contact ul li {
+	width: 100%;
+	font-size: 1.4rem;
+	color: #ccc;
+	background-color: #5584ac;
+}
+.contact ul li a {
+	color: #ccc;
+}
+/* Sections */
+section:nth-child(1) {
+	background-color: #d7e9f7;
+}
+section:nth-child(2) {
+	background-color: #9adcff;
+}
+section:nth-child(3) {
+	background-color: #fee3ec;
+}
+section:nth-child(4) {
+	background-color: #edd2f3;
+}
+section:nth-child(5) {
+	background-color: #5584ac;
+}
