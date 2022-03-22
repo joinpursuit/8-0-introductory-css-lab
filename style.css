@@ -10,7 +10,12 @@ h1 {
 }
 li {
   text-align: center;
-  padding-left: left;
+  padding-left: 30px;
+  color: blue;
+  background-color: lightpink;
+  border: 1px solid rgb(255, 0, 0);
+  border-radius: 10px;
+ 
   /* border-style : red with curvy edges */
 }
 h3 {
@@ -20,4 +25,14 @@ p {
 }
 ol{
     font-weight: bold;
+   
+}
+ul {
+    list-style-type: none;
+}
+img{
+    height: 200px;
+}
+body {
+    font-family: sans-serif;
 }
