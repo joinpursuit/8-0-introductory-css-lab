@@ -1,0 +1,23 @@
+p {
+  font-family: Helvetica, sans-serif;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+h1 {
+    font-size: 30px;
+  font-family: Luminari;
+  color: blue;
+}
+li {
+  text-align: center;
+  padding-left: left;
+  /* border-style : red with curvy edges */
+}
+h3 {
+  text-decoration: underline;
+}
+p {
+}
+ol{
+    font-weight: bold;
+}
