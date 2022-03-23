@@ -1,0 +1,47 @@
+
+      
+      h1 {
+        font-size: 30px;
+        font-family: 'Luminari';
+        color: blue;
+        font-weight:500
+      }
+      ul {
+        list-style-type: none;
+      }
+
+      ol {
+      font-weight: bold;
+      }
+      li {
+        text-align: center;
+        border: 1px solid red;
+        border-radius: 10px;
+        color: blue;
+        background-color: lightpink;
+        padding-left: 30px;
+      }
+
+      img {
+          height: 200px;
+          border-radius: 10px;
+      }
+      body {
+          font-family: sans-serif;
+          background-color: #b76e79;
+      }
+      h3 {
+          text-decoration: underline;
+
+          font-family: arial;
+          color: blanchedalmond;
+      }
+      p{
+          padding: 20px 0;
+          color: goldenrod;
+      }
+     h2 {
+         font-family:arial;
+         color: bisque;
+         text-shadow: 4px 4px 4px pink;
+     }
