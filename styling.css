@@ -1,0 +1,56 @@
+h1 {
+  font-family: Luminari;
+  font-size: 30px;
+  color: blue;
+}
+
+ul {
+  list-style: none;
+}
+
+ol {
+  font-weight: bold;
+  text-align: center;
+}
+
+li {
+  text-align: center;
+  border: 1px solid red;
+  border-radius: 10px;
+  color: blue;
+  background-color: lightpink;
+  padding-left: 30px;
+  opacity: 0.5;
+  text-align: center;
+ 
+}
+
+img {
+  height: 200px;
+  border: 2px dotted red;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: plum;
+  text-align: center;
+  
+}
+
+h3 {
+  text-decoration: underline;
+}
+
+p {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+h1 {
+  font-size: 30px;
+}
