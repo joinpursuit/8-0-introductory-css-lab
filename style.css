@@ -1,3 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Allison&family=Bilbo&family=Bilbo+Swash+Caps&family=Lato:ital,wght@0,900;1,100&display=swap');
+
+body {
+  font-family: sans-serif;
+  margin: 25;
+  padding: 25;
+  background: #d9d9d9;
+}
 h1 {
     font-family: Luminari;
     color: blue;
@@ -17,7 +25,8 @@ ul {
     border-radius: 10px;
     color: blue;
     background-color: lightpink;
-    padding-left: 30px;
+    padding: 5px 5px 5px 30px;
+    margin: 10px;
   }
   
   img {
@@ -26,40 +35,63 @@ ul {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    box-shadow: 0 5px 4px rgba(0,0,0,.5);
+    border: 1px solid transparent;
   }
   
-  body {
+  /* body {
     font-family: sans-serif;
     background-color: cyan;
-  }
+  } */
   
   h3 {
-    text-decoration: underline;
+    font-size: 25px;
     text-align: center;
-    color: blue;
+    color: #ff9900 ;
+    margin: 20px;
+    text-decoration: underline #333333;
+  }
+  .skills {
+    font-size: 15px;
+    color: #333333;
+    margin: 20px;
+    text-decoration: underline #ff9900;
   }
   
   p {
+    color: black;
+    text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
-    text-align: center;
   }
   
   p.intro {
-    color: green;
+    color: black;
     font-size: 30px;
     font-family: serif;
   }
   
   h2 {
-    color: green;
-    font-size: 60px;
-    font-family: serif;
-    text-align: center;
-  }
+      font-family: 'Bilbo Swash Caps', cursive;
+      font-size: 25px;
+      margin-top: 50px;
+      text-align: center;
+      color:  #ff9900;
+      text-underline-offset: 5px;
+    }
+    
   
   .email {
     text-align: center;
     text-decoration: underline;
-    font-size: 30px;
+    font-size: 10px;
+    padding-left: 10px;
+    /* padding-top: 5px; */
+  }
+
+  .contact {
+    text-align: center;
+    color: red;
+    text-decoration: underline  #333333;;
+    
   }
