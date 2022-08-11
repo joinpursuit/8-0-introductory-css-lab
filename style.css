@@ -1,25 +1,40 @@
+body{
+    background-color: honeydew;
+    background-image: url('https://cdn.dribbble.com/users/767222/screenshots/2594094/triangle.gif');
+    
+}
 h1 {
   font-family: Luminari;
-  padding-left: 30px;
-  font-size: 40px;
+  padding-left:30px;
+  font-size: 30px;
   color:blue ;
+  
 }
+h2{
+    color: darkblue;
+    
+
+}
+
 
 ul {
   list-style: none;
+  /* color: red; */
 }
 
 ol {
   font-weight: bold;
+  color: ;
 }
 
 li{
     text-align: center;
-    background-color:black;
-    color: lavenderblush;
-    border: 1px dotted red;
+    background-color: lightpink;
+    color: blue;
+    border: 1px solid red;
     padding-left: 30px;
     border-radius: 10px;
+    font-weight: bold;
 }
 
 img{
@@ -33,13 +48,16 @@ body{
 
 h3{
 text-decoration: underline;
-text-align: center;
-color: black;
+/* text-align: center; */
+color: darkblue;
 }
 
 p{
     padding-top: 20px;
     padding-bottom: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS';
+    font-size:20px ;
+    color: lightblue;
 }
 
 
