@@ -19,23 +19,88 @@ ol {
 }
 
 li {
+    width: 400px;
     text-align: center;
     border: 1px solid rgb(255, 0, 0);
+    
     border-radius: 10px;
     color: blue;
-    background-color: lightpink;
+    background-color: rgba(255, 182, 193, .6)
+    ;
+    /* background-color: lightpink; */
     padding-left: 30px;
-
-
 }
+
+.main-flex-container .flex-container1 .flex-container2 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.flex-container1{
+    order:1;
+}
+
+.flex-container2 {
+    justify-content: flex-end;
+    order: 2;
+}
+.lista{
+    order: 0;
+}
+
+.listb{
+    order: 1;
+}
+.listc{
+    order: 0;
+}
+
+listd{
+    order: 1;
+}
+
+.triangle {
+
+    margin-left: 200px;
+    width: 300px;
+    height: 225px;
+    background-image: url("./fancy-tech-triangle.png");
+    background-position: center;
+    background-size: cover;
+}
+
 
 img {
     height: 200px;
+    width: 150px;
+    margin-left: 75px;
+    margin-top: 5px;
+    border-radius: 30%;
+    border-bottom-left-radius: unset;
+    border-top-right-radius: unset;
+    border-color: cyan;
+    border-width: 50px;
+
 }
 
 
 body {
+    margin-left: 50px;
     font-family: sans-serif;
+    background-image: url("./woman-in-matrix.png");
+    height: 100%;
+    color: cyan;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h2 {
+    -webkit-text-stroke-width: .90px;
+    -webkit-text-stroke-color: rgb(73, 7, 153);
 }
 
 h3 {
@@ -43,8 +108,33 @@ h3 {
     text-decoration-line: underline;
 }
 
+
+.about-me {
+    overflow-x: visible;
+    display: block; 
+
+    width: 100%;
+    transform: translateX(30%); 
+    animation: slide 70s linear infinite;
+  }
+  
+  @keyframes slide {
+    to { transform: translateX(-100%); }
+  }
+
+
 p {
     padding-top: 20px;
     padding-bottom: 20px;
+    width:100%;
+}
+
+.p1 {
+    -webkit-text-stroke-width: .9px;
+    -webkit-text-stroke-color:  rgb(255, 0, 251);
+    font-size: 25px;
+    font-weight: bold;
+    width: 250%;
+    background-color: rgba(0,0,139,.5)
 }
 
