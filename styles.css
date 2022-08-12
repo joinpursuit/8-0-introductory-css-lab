@@ -1,10 +1,10 @@
 
 /*HEADERS*/
 h1{
-   font-family: Luminari, Arial, Helvetica, sans-serif;
+   font-family: Luminari;
    font-size: 30px;
    font-style: italic;
-   color: rgb(23, 87, 184); 
+   color: blue; 
 }
 h2{
    font-family: Luminari, Arial, Helvetica, sans-serif;
@@ -19,7 +19,7 @@ h2{
 
 /*BODY*/
 body{
-   font-family: sans-serif, Ariel, Helvetica;
+   font-family: sans-serif;
 background-image: linear-gradient(rgba(120, 166, 189, 0.533), rgba(71, 71, 195, 0.617));
    /* background-color: rgba(120, 166, 189, 0.533); */
 }
@@ -41,7 +41,7 @@ li{
    padding-left: 30px;
    background-color: lightpink;
    border: 1px solid red;
-   border-radius: 25px ;
+   border-radius: 10px ;
 }
 /*ORDERED LISTS*/
 ol{
