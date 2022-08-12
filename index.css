@@ -1,0 +1,83 @@
+h1 {
+    color: blue;
+    font-family: Luminari;
+    font-size: 30px;
+}
+
+ul {
+    list-style: none
+    
+}
+
+ol {
+    font-weight: bold;
+}
+
+li {
+    text-align: center;
+    color:blue;
+    border-radius: 10px;
+    border: 1px solid rgb(255, 0, 0);
+    background-color: lightpink;
+    padding-left: 30px;
+    font-family: Times New Roman;
+}
+
+img {
+height: 200px;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: rgb(113, 124, 152);
+}
+
+h3 {
+    text-decoration-line: underline;
+    color: rgb(240, 245, 255);
+    font-family: Times New Roman;
+}
+
+p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: Haettenschweiler;
+    color: aqua;
+}
+
+h2 {
+    font-family:  Lucida Sans Unicode;
+    color: rgba(3, 1, 4, 0.804);
+}
+.words{
+    font-family:cursive;
+    color:aqua
+}
+
+.words2{
+    font-family:cursive;
+    color:aqua 
+}
+
+.lang {
+    font-family:cursive;
+    color:aqua  
+}
+
+.libra {
+    font-family:cursive;
+    color:aqua
+}
+
+.my {
+    color: blue;
+}
+
+.I {
+    color: blue;
+}
+
+.bunch {
+    color: blue;
+}
+ 
