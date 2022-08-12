@@ -1,0 +1,63 @@
+h1 {
+  color: blue;
+  font-family: Luminari;
+  font-size: 30px;
+}
+
+ul {
+    list-style: none;
+    text-align: center;
+}
+
+ol {
+    font-weight: bold;
+    text-align: center;
+}
+  
+li {
+    border: 1px solid red;
+    border-radius: 10px;
+    background-color: lightpink;
+    color: blue;
+    padding-left: 30px;
+}
+
+img {
+    height: 200px;
+    border-radius: 20%;
+    border: 3px solid rgb(85, 99, 226);
+
+}
+
+#image {
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    font-family: sans-serif;
+    border: 2px solid rgb(109, 133, 191);
+    padding: 50px;
+    background-color: rgb(232, 199, 200);
+    background-image: url("https://images.unsplash.com/photo-1614481327033-68e5df399653?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8M3x8fGVufDB8fHx8&w=1000&q=80")
+}
+
+h3 {
+    text-decoration: underline;
+    color:rgb(159, 46, 133)
+}
+
+p {
+    padding-top: 20px;
+    padding-bottom: 20px; 
+    border: 3px solid rgb(92, 73, 171);
+    background-image: url("https://static.vecteezy.com/system/resources/previews/002/196/478/non_2x/colorful-watercolor-background-with-white-accent-free-vector.jpg");
+    border-radius: 20%;
+    padding-left: 10px;
+    font-size: 16px;
+}
+
+h2{
+    text-decoration: underline;
+    color:rgb(150, 48, 100);
+}
