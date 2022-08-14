@@ -19,12 +19,12 @@ li {
    
     color: blue;
     background-color: lightpink;
-    padding-left: 30px;
+    padding: 0px 0px 0px 30px;
 }
 
 p {
-    padding-top: 20px;
-    padding-bottom: 20px;
+   padding: 20px 0px 20px 0px;
+    
 }
 
 ul {
