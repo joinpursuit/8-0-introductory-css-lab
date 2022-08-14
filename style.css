@@ -1,0 +1,60 @@
+h1 {
+  color: blue;
+  font-family: Luminari;
+
+  text-shadow: 2px 2px 5px red;  
+}
+
+p {
+  color: rgb(0, 0, 0);
+  font-family: Helvetica, serif;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ol {
+  font-weight: bold;
+}
+li {
+  text-align: center;
+  border: 1px solid red;
+  border-radius: 10px;
+  color: blue;
+  background-color: lightpink;
+}
+img {
+  height: 200px;
+  margin: auto;
+  display: block;
+}
+body {
+  font-family: sans-serif;
+}
+h3 {
+  text-decoration: underline;
+text-underline-position: below;
+}
+
+p {
+  padding-top: 20px;
+ 
+  padding-bottom: 20px;
+}
+h1 {
+  font-size: 30px;
+}
+li {
+  padding-left: 30px;
+}
+div { 
+    
+    background-blend-mode: screen;
+
+  }
+
+h2{
+    text-shadow: 2px 2px 5px red;  
+}
+body {background-color: #bdbfd4;}
