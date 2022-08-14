@@ -1,0 +1,61 @@
+h1 {
+  font-family: Luminari; 
+  color: blue; 
+  text-align: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ol {
+    font-weight: bold;
+}
+
+li {
+    text-align: center;
+    border: 1px solid red;
+    border-radius: 10px;
+    color: blue; 
+    background-color: lightpink;
+    padding-left: 30px;
+}
+
+img {
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 5px 4px grey;
+    border: 1px solid transparent;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: rgb(222, 158, 235);
+}
+
+h3 {
+    text-decoration: underline;
+}
+
+p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+   
+}
+
+h1 {
+    font-size: 30px;
+}
+
+.lang {
+    font: arial;
+    font-size: 18px;
+    color:rgb(28, 70, 105);
+}
+
+h3.skill {
+   text-align: center;
+   color:rgb(138, 19, 69)
+}
