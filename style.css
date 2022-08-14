@@ -1,0 +1,57 @@
+h1 {
+    font-family: Luminari;
+    font-size: 30px;
+    color: blue;
+    text-align: center;
+}
+
+ul{
+    list-style-type: none;
+}
+
+ol {
+    font-weight: bold;
+}
+
+li {
+    text-align: center;
+    border: 1px red solid;
+    border-radius: 10px;
+    color: blue;
+    background-color: lightpink;
+    padding-left: 30px;
+    font-size: 20px;
+}
+
+img {
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body {
+    font-family: sans-serif;
+    background: radial-gradient(rgb(153,204,255) , rgb(255,229,234), rgb(153,204,255));
+}
+
+h3 {
+    text-decoration: underline;
+}
+
+p {
+    padding: 20px 0 20px 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+a:hover{
+    color: red;
+}
+
+a:visited {
+    color: green;
+}
+
+.center {
+    text-align: center;
+}
