@@ -1,0 +1,57 @@
+h1 {
+    color:blue;
+    font-family: Luminari;
+    font-size: 30px;
+}
+
+ul {
+    list-style-type: none;
+    lighting-color: aquamarine;
+    font-weight: 200;
+    font-stretch: extra-condensed;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ol {
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: medium;
+}
+
+li {
+    text-align: center;
+    border: 1px solid red;
+    border-radius: 10px;
+    color: blue;
+    background-color: lightpink;
+    padding-left: 30px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+img {
+    height: 200px;
+    width: 175px;
+    border: 10px;
+}
+body {
+    font-family: sans-serif;
+    background-color: rgb(100, 97, 97);
+    font-size: small;
+    font-style: oblique;
+}
+h3 {
+    text-decoration: underline;
+    text-shadow: 10px;
+    height: auto;
+    padding-left: 20px;
+}
+p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+    font-style: inherit;
+}
