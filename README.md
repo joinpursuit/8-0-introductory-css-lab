@@ -37,7 +37,7 @@ To complete the tests in this lab, you will need to add the following styles. If
 - Change the font of the name header to be `'Luminari'` and blue.
 - Remove the bullet points from your unordered list of links.
 - Change the `font-weight` in your ordered list to bold.
-- Center all `li` elements on the page.
+- Center all li  elements on the page.
 - Give your `li` elements a 1px red border with curved corners.
 - Change the font color of your `li` elements to blue and the background color to a light pink.
 - All images should be 200 pixels tall.
