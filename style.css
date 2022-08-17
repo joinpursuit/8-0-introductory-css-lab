@@ -1,0 +1,52 @@
+body {
+    font-family: sans-serif;
+    background-color: lime;
+}
+
+h1 {
+    font-family: Luminari;
+    color: blue;
+    font-size: 30px;
+    text-decoration: underline;
+    text-decoration-style: double;
+}
+
+h3 {
+    text-decoration-line: underline;
+    font-family: papyrus;
+    font-size: 25px;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    background-color: hotpink;
+}
+
+li {
+    text-align: center;
+    width: 200px;
+    color: blue;
+    background-color: lightpink;
+    border: 1px solid red;
+    border-radius: 10px;
+    padding-left: 30px;
+    font-style: italic;
+}
+
+ol {
+    font-weight: bold;
+    background-color: aqua;
+}
+
+img {
+    height: 200px;
+    width: 200px;
+}
+
+p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: papyrus;
+    font-weight: bold;
+}
