@@ -1,0 +1,67 @@
+/* 
+  SELECTOR DE ELEMENTO
+    Aplica los estilos a TODOS los elementos
+
+  SELECTOR DE CLASE
+    Aplica los estilos a TODOS los elementos que tengan ESA CLASE desde HTML
+
+  SELECTOR DE ID
+    Aplica los estilos AL UNICO ELEMENTO que posee ese ID
+*/
+
+h1 { 
+  color: blue;
+  font-family: Luminari;
+  font-size: 30px;
+}
+
+.unordered-list {
+  /* Con esta propiedad cambiamos el icono que esta a la izquierda de cada <li> */
+  list-style: none;
+}
+
+
+ol {
+  /* FONT-WEIGHT: Cambia el PESO de la fuente (más delgada - más negrita) */
+  font-weight: bold;
+  padding-left: 30px;
+}
+
+li {
+  /* TEXT-ALIGN: Permite cambiar la posicion del texto en el eje horizontal (centrar, justificar, etc) */
+  text-align: center;
+  padding-left: 30px;
+
+  /* 
+    BORDER: Toma 3 valores separados por espacios
+      El primero es el tamaño del borde
+      El segundo es el tipo del borde (solid, dashed, dotted, etc)
+      El tercero es el color
+  */
+  border: 1px solid red;
+  /* 
+    BORDER-RADIUS: Permite cambiar la curvatura de las esquinas de nuestro borde
+  */
+  border-radius: 10px;
+
+  color: blue;
+  background-color: lightpink;
+}
+
+img {
+  /* HEIGHT: Define el alto de un elemento */
+  height: 200px;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+h3 {
+  /* TEXT-DECORATION: Aplican una decoracion en el texto */
+  text-decoration: underline;
+}
+
+p {
+  padding: 20px 0px;
+}
