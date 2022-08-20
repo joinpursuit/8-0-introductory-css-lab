@@ -1,0 +1,48 @@
+h1 {
+    color: rgb(0, 0, 255);
+    font-family: Luminari;
+    text-align: center;
+  }
+
+  ul {
+    list-style-type: none;
+    text-align: center;
+  }
+
+  ol {
+    font-weight: 700;
+    text-align: center;
+  }
+
+  li {
+    border: 1px solid rgb(255, 0, 0);
+    color: rgb(0, 0, 255);
+    padding-left: 30px;
+    background-color: rgb(255, 182, 193);
+    border-radius: 10px;
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+
+  body {
+    font-family: sans-serif;
+  }
+
+  h3 {
+    text-decoration-line: underline;
+     color: crimson;
+  }
+
+  p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: helvetica, serif;
+    overflow: scroll;
+  }
+
+  #profile-pic {
+    height: 200px;
+  }
+
