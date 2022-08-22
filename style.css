@@ -1,0 +1,66 @@
+h1 {
+    font-family: 'Luminari';
+    color:blue;
+    text-align: center;
+    font-size: 30px;
+}
+
+ul {
+    list-style: none;
+    font-weight: bold;
+}
+
+ol {
+    font-weight: bold;
+    list-style: none;
+}
+
+li {
+    font-family: Copperplate;
+    text-align: center;
+    border: 1px solid red;
+    border-radius: 10px;
+    color:blue;
+    background-color: lightpink;
+    padding-left: 30px;
+}
+
+img {
+    border: 3px solid blue;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: black;
+}
+
+h3 {
+    color: darkgray;
+    font-family: Luminari;
+    text-decoration: underline;
+}
+
+p {
+    font-family: Copperplate;
+    color:darkgray;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+h2 {
+    font-family: Luminari;
+    color: darkgray;
+    text-decoration: underline;
+}
+
+div {
+    font-family: Copperplate;
+    color: darkgray;
+}
