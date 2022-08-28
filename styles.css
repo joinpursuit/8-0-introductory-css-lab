@@ -1,0 +1,43 @@
+/* Start of the styles.css file. */
+h1 {
+    color: blue;
+    font-family: Luminari;
+    font-size: 30px;
+  }
+
+h3 {
+    text-decoration-line:underline;
+}  
+
+p {
+    padding-top:20px;
+    padding-bottom:20px;
+}
+
+ul {
+    list-style-type: none;
+}
+    
+  
+
+  ol {
+    font-weight: bold;
+  }
+
+  li {
+    color: blue;
+    background-color: rgb(255, 182, 193);
+    text-align: center;
+    border: 1px solid rgb(255, 0, 0);
+    border-radius: 10px;
+    padding-left:30px;
+  }
+
+img {
+    height: 200px;
+}  
+
+body {
+    font-family: sans-serif;
+    
+}
