@@ -27,7 +27,7 @@ To run the tests, you can run the following command from the command line. You w
 ```
 npm test
 ```
-
+ok
 This will open the Cypress testing window, where you can click to run an individual suite of tests or all of the tests at once.
 
 ## Instructions
