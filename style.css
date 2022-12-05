@@ -13,13 +13,13 @@ ol {
     font-weight: bold; 
 }
 li {
+    font: blue ;
+    color: rgb(0, 0, 255);
+    background-color: lightpink;
     text-align: center;
     border: 1px solid red;
     border-radius: 10px;
-    font: blue;
-    background-color: lightpink;
-    padding-left: 25px;
-    color: whitesmoke;
+    padding-left: 30px;
     font-style: italic;
 }
 img {
