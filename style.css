@@ -1,0 +1,56 @@
+h1{
+    font-family: Luminari;
+    color: blue;
+    font-size: 30px;
+    text-align: center;
+}
+
+ul{
+    list-style-type: none;
+    font-style: italic;
+}
+
+ol{
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+li{
+    text-align: center;
+    border: 1px solid red;
+    border-radius: 10px;
+    color: blue;
+    background-color: lightpink;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 20px;
+    font-family: fantasy;
+}
+
+img{
+    height: 200px;
+    align-items: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+body{
+    font-family: sans-serif;
+    color: white;
+    background-image: linear-gradient(black, purple, pink, orange);
+}
+
+h3{
+    font-family: cursive;
+    text-decoration: underline;
+    text-align: center;
+}
+
+p{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-family: fantasy;
+}
