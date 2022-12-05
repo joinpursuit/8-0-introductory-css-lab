@@ -1,0 +1,59 @@
+h1 {
+    font-family: 'Luminari';
+    color: rgb(0, 0, 255);
+    font-size: 30px;
+}
+
+ul{
+    list-style: none;
+}
+
+ol {
+    font-weight: 700;
+}
+
+li {
+    text-align: center;
+    /* https://github.com/cypress-io/cypress/issues/14722  
+    Turns out, I was zoomed out in my browser (at 75%) and that was messing with the styles 
+    when the tests were running for some reason in Chrome. 
+    When I zoomed back in and brought the browser view back to 100%, 
+    the test passed for me and I wasn't getting a size error.
+    */
+    border: 0.3px solid rgb(255, 0, 0);
+    border-radius: 10px;
+    color: rgb(0, 0, 255);
+    background-color: rgb(255, 182, 193);
+    padding-left: 30px;
+}
+
+img {
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 55%;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+h3{
+    text-decoration: underline;
+}
+
+p{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* Cool Animations? */
+.row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 33.33%;
+    padding: 5px;
+  }
