@@ -1,0 +1,59 @@
+h1 {
+    color: blue;
+    font-family: 'Luminari';
+    font-size: 30px;
+    text-decoration: lavenderblush underline overline wavy;
+}
+
+ul {
+
+    list-style-type: none;
+    font-family: 'Luminari';
+    font-weight: bold;
+    font-size: 14px;
+}
+
+ol {
+    font-weight: bold;
+}
+
+li {
+    text-align: center;
+    border: 1px solid red;
+    border-radius: 10px;
+    color: blue;
+    background-color: lightpink;
+    padding-left: 30px;
+}
+
+img {
+    height: 200px;
+    -webkit-box-reflect: right;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+h3 {
+    text-decoration: underline;
+}
+
+p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+body {
+    background-color: lavender;
+    background-repeat: repeat-x;
+    background-image: radial-gradient(lavender, purple, pink, turquoise)
+}
+
+img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+    border-radius: 8px;
+}
