@@ -3,9 +3,18 @@ h1 {
     color: rgb(0, 0, 255);
     font-size: 30px;
 }
+body{
+    background-color: #007BA7;
+}
+.wrapper{
+    text-align: center;
+}
 
 ul{
     list-style: none;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
 }
 
 ol {
@@ -25,6 +34,8 @@ li {
     color: rgb(0, 0, 255);
     background-color: rgb(255, 182, 193);
     padding-left: 30px;
+    padding-right: 30px;
+    padding: 5px 30px 5px 30px;
 }
 
 img {
@@ -55,5 +66,4 @@ p{
   
   .column {
     flex: 33.33%;
-    padding: 5px;
   }
