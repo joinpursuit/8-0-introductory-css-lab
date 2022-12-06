@@ -31,6 +31,8 @@ body {
 
 h3 {
   text-decoration: underline;
+  font-family: 'Times New Roman', Times, serif;
+ 
 }
 
 p {
@@ -39,5 +41,10 @@ p {
 }
 
 body {
-    bac
+    background:radial-gradient(circle, #ffb6c2, #b6e8f3)
+    
+}
+
+a:hover {
+    background-color: magenta;
 }
