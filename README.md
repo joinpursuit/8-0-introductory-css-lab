@@ -35,11 +35,11 @@ This will open the Cypress testing window, where you can click to run an individ
 To complete the tests in this lab, you will need to add the following styles. If you're unclear about any of the instructions below, remember that you can check the test file to see what exactly is being tested.
 
 - Change the font of the name header to be `'Luminari'` and blue.
-- Remove the bullet points from your unordered list of links.
++ Remove the bullet points from your unordered list of links.
 - Change the `font-weight` in your ordered list to bold.
 - Center all `li` elements on the page.
 - Give your `li` elements a 1px red border with curved corners.
-- Change the font color of your `li` elements to blue and the background color to a light pink.
++ Change the font color of your `li` elements to blue and the background color to a light pink.
 - All images should be 200 pixels tall.
 - Change all font in the body to sans-serif.
 - Underline all `h3` elements.
