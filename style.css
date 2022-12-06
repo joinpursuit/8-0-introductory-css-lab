@@ -5,8 +5,8 @@
  }
 
  h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-decoration-line: underline;
-
  }
 
  ul {
@@ -15,6 +15,7 @@
 
  ol {
     font-weight: 700;
+    list-style-type: none;
  }
 
  li {
@@ -23,12 +24,13 @@
     color:rgb(0, 0, 255);
     background-color: lightpink;
     padding-left: 30px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     padding-right: 30px;
     margin: 0;
     width: 110px;
     text-align: center;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
  }
 
  p {
@@ -78,4 +80,5 @@
     height: 200px;
     border-radius: 25%;
     border: 2px solid black;
+    display: block;
   }
