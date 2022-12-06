@@ -1,0 +1,109 @@
+ body {
+    font-family: sans-serif;
+    background-color: chocolate;
+    background-image: url("noisy-gradient.webp");
+    background-repeat: no-repeat;
+ }
+
+ img{
+    width: 15%;
+    height: 200px;
+    border-radius: 20%;
+    border: 2px solid black;
+ }
+
+ .title-heading{
+    animation-name: move-title;
+    animation-duration: 5s;
+    animation-direction:normal;
+    animation-timing-function:ease-in-out;
+    animation-iteration-count: infinite;
+    position: relative;
+ }
+  
+ @keyframes move-title{
+    0% {transform: rotate3d(10, 1.0, 1.0, 360deg)}
+ }
+  
+ .title-heading > h1{
+    margin:-3em 15em -1em 15em;
+    font-size: 30px;
+    font-family: "Luminari";
+    color: blue;
+    text-align: center;
+    text-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0.2em blue;
+ }
+ 
+ h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration-line: underline;
+ }
+
+ ul, ol {
+    font-weight:700;
+    list-style-type: none;
+ }
+ 
+ li {
+    border: 1px solid rgb(255, 0, 0);
+    border-radius: 10px;
+    color:rgb(0, 0, 255);
+    background-color: lightpink;
+    padding-left: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 30px;
+    margin: 0;
+    width: 110px;
+    text-align: center;
+    font-family:Impact, 'Arial Narrow Bold', sans-serif;
+    display:inline;
+ }
+
+ li.pointer {
+    cursor:pointer;
+ }
+
+ li:hover {
+    background-color:aqua;
+ }
+
+ p {
+   padding-top: 20px;
+   padding-bottom: 20px;
+   font-family: 'Arial Narrow', sans-serif;
+   font-size: 18px;
+   color:black;
+ }
+ 
+ a {
+    font-size: medium;
+    font-weight: bold;
+ }
+
+ a:hover {
+    color:darkgreen;
+    text-transform: uppercase;
+ }
+
+ input[type=text] {
+    width: 11%;
+    padding: 8px 8px;
+    margin: 6px 0;
+    box-sizing: border-box;
+  }
+
+ #submit {
+    color :rgb(255, 0, 0);
+    font-weight: bold;
+    background-color:gold;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    size: 5px;
+    border: none;
+    width:75px;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+ }
