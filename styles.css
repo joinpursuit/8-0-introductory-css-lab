@@ -7,10 +7,14 @@ h1 {
 
 ul {
     list-style: none;
+    /* additional declaration 1 */
+    color: rgb(171, 162, 162);    
 }
 
 ol {
     font-weight: bold;
+    /* additional declaration 2 */
+    color: rgb(171, 162, 162);
 }
 
 li {
@@ -19,8 +23,11 @@ li {
     padding-left: 30px;
     text-align: center;
     border-radius: 10px;
-    border: 1px solid red
-    
+    /* additional declaration 3 */
+    opacity: .5;
+    border: 1px solid red;
+    /* additional declaration 4 */
+    height: 30px;
 }
 
 img {
@@ -28,14 +35,36 @@ img {
 }
 
 body {
+    /* additional declaration 5 */
+    text-align: center;
+    /* additional declaration 6 */
+    background: linear-gradient(rgb(18, 104, 224), purple, blue);
     font-family: sans-serif;
+}
+
+h2 {
+    /* additional declaration 7 */
+    color: rgb(171, 162, 162);    
 }
 
 h3 {
     text-decoration-line: underline;
+    /* additional declaration 8 */
+    color: rgb(171, 162, 162);    
+}
+
+a {
+    /* additional declaration 9 */
+    color:azure;
+}
+
+div {
+    color: rgb(169, 31, 212)
 }
 
 p {
     padding-top: 20px;
     padding-bottom: 20px;
+    /* additional declaration 10 */
+    color:rgb(255, 255, 255);
 }
