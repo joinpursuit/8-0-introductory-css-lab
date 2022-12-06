@@ -1,0 +1,91 @@
+body {
+
+    background-image: url('https://joshbersin.com/wp-content/uploads/2020/01/skills2.jpg')
+    
+}
+
+
+h1 {
+    font-family: 'Luminari';
+    color: blue;
+    font-size: 30px;
+    
+  }
+  
+  ul {
+    list-style-type: none;
+    text-align: center;
+    font-family: "comic sans";
+  }
+  
+  ol {
+    font-family: 'comic sans';
+    font-weight: 700;
+    text-align: center;
+  }
+  
+  li {
+    border: 1px solid red;
+    border-radius: 10px;
+    color: blue;
+    background-color: rgb(255, 182, 193);
+    padding-left: 30px;
+  }
+  
+  img {
+    height: 200px;
+    
+    object-position: left;
+  }
+  
+  body {
+    font-family: sans-serif;
+  }
+  
+  h3 {
+    text-decoration-line: underline;
+    
+        animation: wiggle 2s linear infinite;
+      }
+      
+      /* Keyframes */
+      @keyframes wiggle {
+        0%, 7% {
+          transform: rotateZ(0);
+        }
+        15% {
+          transform: rotateZ(-15deg);
+        }
+        20% {
+          transform: rotateZ(10deg);
+        }
+        25% {
+          transform: rotateZ(-10deg);
+        }
+        30% {
+          transform: rotateZ(6deg);
+        }
+        35% {
+          transform: rotateZ(-4deg);
+        }
+        40%, 100% {
+          transform: rotateZ(0);
+        }
+  }
+
+  h2 {
+  background: rgb(88, 152, 225);
+  color: rgb(230, 168, 53);
+  border: black;
+  padding: 10px;
+  font: sans serif;
+  cursor: pointer;
+  outline: inherit;
+  border-radius: 15px;
+  }
+
+    p {
+    font-family: comic sans;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }

@@ -17,7 +17,7 @@ In this lab, you'll have the opportunity to design a personal webpage. The conte
    ```
 
    This will install the libraries needed to run the tests.
-
+ 
 1. Open up the repository in VSCode. Follow the instructions below to complete the Lab.
 
 ### Tests
