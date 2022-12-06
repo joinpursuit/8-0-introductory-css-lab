@@ -1,6 +1,6 @@
 h1 {
     font-family: Luminari;
-    color: blue
+    color: blue;
 }
 
 ul {
@@ -10,13 +10,21 @@ ul {
 ol {
     font-weight: bold;
 }
+/* 1) added book emoji before libraries */
+#books::before {
+    content:"📚"
+}
 
 li {
     text-align: center;
     border: 1px solid red;
     border-radius: 10px;
     color: blue;
-    background-color: lightpink
+    background-color: lightpink;
+    /* /* 2)added background image to each listed item  */
+    background-image: url(https://www.shutterstock.com/image-vector/elegant-seamless-pattern-beautiful-pink-260nw-100141364.jpg);
+    opacity: 0.7;
+    /* 3) added opacity*/
 }
 
 img {
@@ -25,6 +33,10 @@ img {
 
 body {
     font-family:sans-serif;
+}
+/* 4) added bug emoji to h3 heading #buggy */
+#buggy::before {
+    content:"🪲"
 }
 
 h3 {
@@ -43,9 +55,28 @@ text-decoration-line: underline;
 
 h1 {
     font-size: 30px;
+    /* 5) border added 
+    6) background color added*/
+    border: 1px solid whitesmoke;
+    background-color:lightcyan;
+}
+/* 7)added telephone emoji before contact me */
+#telephone::before {
+    content:"☎️";
 }
 
 li {
     padding-left: 30px;
     background-color: ;
+}
+
+/* More declarations listed below 
+8) centered everything on the page
+9) added background image
+10) added font weight to bold all words*/
+
+body {
+    text-align: center;
+    background-image: url(https://cdn11.bigcommerce.com/s-o151h/images/stencil/1280x1280/products/13305/10774/sequins-91744__78059.1453689665.jpg?c=2);
+    font-weight: bold;
 }
