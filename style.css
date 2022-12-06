@@ -1,0 +1,56 @@
+ h1 {
+    color: blue;
+    font-family: 'Luminari';
+    font-size: 30px;
+}
+
+.photo {
+    display: flex;
+    padding-left: 600px;
+    width: 150px;
+    height: 200px;
+}
+
+body {
+    font-family: sans-serif;
+    background-image: linear-gradient(to bottom right,#2cc5e4,pink);
+}
+
+
+h3 {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+ul {
+    list-style: none;
+    font-weight: 700;
+}
+
+ul li {
+    background-color: rgb(255,182,193);
+    padding-left: 30px;
+    border-radius: 10px;
+    border: 1px solid rgb(255, 0, 0);
+    text-align: center;
+    color: blue;
+}
+
+ol { 
+    list-style: none;
+    font-weight: 700;
+}
+
+ol li {
+    background-color: rgb(255,182,193);
+    border-radius: 10px;
+    border: 1px solid rgb(255, 0, 0);
+    text-align: center;
+    color: blue;
+}
+
+p {
+ padding-top: 20px;
+ padding-bottom: 20px;
+}
+
