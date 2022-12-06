@@ -1,0 +1,50 @@
+h1 {
+  font-size: 30px;
+  font-family: Luminari;
+  color: blue;
+}
+
+ul {
+  list-style: none;
+}
+
+ol {
+  font-weight: bold;
+}
+
+img {
+  height: 200px;
+}
+
+li {
+  text-align: center;
+  border: 1px red solid;
+  border-radius: 10px;
+  background-color: lightpink;
+  color: blue;
+  padding-left: 30px;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+h3 {
+  text-decoration: underline;
+  font-family: 'Times New Roman', Times, serif;
+ 
+}
+
+p {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+body {
+    background:radial-gradient(circle, #ffb6c2, #b6e8f3)
+    
+}
+
+a:hover {
+    background-color: magenta;
+}
