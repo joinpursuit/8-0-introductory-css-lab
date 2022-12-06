@@ -1,0 +1,63 @@
+h1 {
+    font-family: Luminari;
+    color: blue;
+}
+
+ul {
+    list-style-type: none;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+ol {
+    font-weight: bold;
+    font-size: larger;
+
+}
+
+li {
+    text-align: center;
+    border: 1px solid red;
+    border-radius: 10px;
+    color: blue;
+    background-color: lightpink;
+    padding-left: 30px;
+}
+
+img {
+    height: 200px;
+    width: 200px;
+   
+    
+}
+
+body {
+    font-family: sans-serif;
+    background-color: gray;
+    color: darkgreen;
+    border-color: blue;
+}
+
+h3 {
+text-decoration-line: underline;
+color: aqua;
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-weight: bold;
+}
+
+p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: bold;
+    
+    
+    
+}
+
+
+
