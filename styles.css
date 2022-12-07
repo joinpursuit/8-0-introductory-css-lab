@@ -1,0 +1,60 @@
+h1 {
+    font-family: "Luminari";
+    color: blue;
+    font-size: 30px;
+}
+ul {
+    list-style-type: none;
+    text-align: center;
+}
+ol {
+    font-weight: 700;
+    text-align: center;
+    list-style-type: none;
+}
+li {
+    text-align: center;
+    border: 1px solid red;
+    border-radius: 10px;
+    color: blue;
+    background-color: lightpink;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+img {
+    height: 200px;
+}
+body {
+font-family: sans-serif;
+text-align: center;
+}
+h3 {
+    text-decoration-line:underline ;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+h2 {
+    text-decoration-line:underline ;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+html {
+    background-color: deepskyblue;
+   border: 10px solid rgb(227, 169, 215);
+   background: radial-gradient(
+    circle,
+    rgb(255, 255, 255) 15%,
+    rgb(227, 169, 215) 52%,
+    rgb(0, 212, 255, 1) 100%
+  );
+   
+}
