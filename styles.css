@@ -1,0 +1,47 @@
+h1 {
+    color: rgb(0, 0, 255);
+    font-family: Luminari;
+    font-size: 30px;
+}
+h2 {
+    color: rgb(21, 175, 236);
+}
+h3 {
+    color: rgb(6, 86, 166);
+    text-decoration-line: underline;
+}
+.killer-bug {
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 10x;
+}
+div.professional-description {
+    color: black;
+    
+    padding-bottom: 15px;
+}
+
+ul {;
+    font-weight: bold;
+    list-style: none;
+}
+
+ol {
+    font-weight: bold;
+}
+
+li {
+    text-align: center;
+    border: 1px solid rgb(28, 34, 229);
+    border-radius: 10px;
+    color: rgb(0, 0, 255);
+    background-color:cornflowerblue;
+    padding-left: 30px;
+}
+img {
+    height: 200px;
+}
+body {
+    font-family: sans-serif, 'Times New Roman', Times, serif;
+}
+
