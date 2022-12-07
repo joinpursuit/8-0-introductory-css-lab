@@ -1,0 +1,43 @@
+h1 {
+    font-family: "Luminari";
+    color: blue;
+    font-size: 30px;
+}
+
+ul {
+    list-style: none;
+}
+
+ol {
+    font-weight: bold;
+}
+
+li {
+    border-radius: 10px;
+    text-align: center;
+    color: blue;
+    background-color: lightpink;
+    padding-left: 30px;
+    border: 1px solid red;
+}
+
+img {
+    height: 200px;
+    place-items: center;
+}
+
+body {
+    font-family: sans-serif;
+    background: linear-gradient(217deg, rgba(255, 0, 0, .8), rgba(255, 0, 0, 0) 70.71%),
+        linear-gradient(127deg, rgba(0, 255, 0, .8), rgba(0, 255, 0, 0) 70.71%),
+        linear-gradient(336deg, rgba(144, 0, 255, 0.8), rgba(0, 0, 255, 0) 70.71%);
+}
+
+h3 {
+    text-decoration: underline;
+}
+
+p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
