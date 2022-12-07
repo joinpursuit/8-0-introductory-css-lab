@@ -13,14 +13,12 @@ ol {
 }
 
 li {
-    border-radius: 1px;
+    border-radius: 10px;
     text-align: center;
     color: blue;
     background-color: lightpink;
     padding-left: 30px;
-    border-style: solid;
-    border-radius: 25px;
-    border-color: red;
+    border: 1px solid red;
 }
 
 img {
