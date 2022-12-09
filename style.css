@@ -29,13 +29,13 @@ li {
     When I zoomed back in and brought the browser view back to 100%, 
     the test passed for me and I wasn't getting a size error.
     */
-    border: 0.3px solid rgb(255, 0, 0);
+    border: 1px solid rgb(255, 0, 0);
     border-radius: 10px;
     color: rgb(0, 0, 255);
     background-color: rgb(255, 182, 193);
     padding-left: 30px;
-    padding-right: 30px;
-    padding: 5px 30px 5px 30px;
+    /* padding-right: 30px; */
+    /* padding: 5px 30px 5px 30px; */
     font-family: 'Space Mono', monospace;
 }
 
@@ -63,8 +63,8 @@ p{
 /* Cool Animations? */
 .row {
     display: flex;
-  }
+}
   
-  .column {
+.column {
     flex: 33.33%;
-  }
+}
