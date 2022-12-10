@@ -1,0 +1,56 @@
+/*This is a reference style sheet, you can create an additional pathway
+by creating a new document labeled it "intro-css.css ( .css lets u kno 
+type of file */
+
+h1 /*h1 is the selector, this comes before the open curly bracket"{'
+    this determines where the effect will be applied to the heading  */ 
+    /*line 10 - 15 are decleration statements, anything bet is the effect it
+    will be applied to the selector. declaration statements format is 
+    property: value--->font-size: 30 px*/
+    {
+    font-size: 30px;
+    font-family: Luminari;
+    color: blue
+
+}
+
+ul /*ul is the selector, this comes before the open curly bracket"{'
+    this determines where the effect will be applied to the unordered list */ 
+    {
+    list-style-type: none;
+}
+
+ol /*ol is the selector, this comes before the open curly bracket"{'
+    this determines where the effect will be applied to the ordered list */ 
+    {
+    font-weight: 700;
+}
+
+
+li /*li is the selector, this comes before the open curly bracket"{'
+    this determines where the effect will be applied to the list item element */{
+    text-align: center;
+    border: 1px solid red;
+    border-radius: 10px;
+    color: blue;
+    background-color: lightpink;
+    padding-left: 30px;
+}
+
+img /*img is the selector, this comes before the open curly bracket"{'
+    this determines where the effect will be applied to the image */{
+    height: 200px;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+h3 /*h3 is the selector, this comes before the open curly bracket"{'
+    this determines where the effect will be applied to the heading */{
+    text-decoration: underline;
+}
+p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
