@@ -1,0 +1,57 @@
+h1 {
+    font-family: Luminari;
+    color: blue;
+    font-size: 30px;
+
+}
+
+ul {
+    list-style-type: none;
+
+}
+
+ol {
+    font-weight: 700;
+
+}
+
+li {
+    text-align: center;
+    color: blue;
+    border: 1px solid rgb(255, 0, 0);
+    background-color: lightpink;
+    border-radius: 10px;
+    padding-left: 30px;
+
+}
+img {
+    height: 200px;
+}
+body {
+    font-family: sans-serif;
+}
+h3 {
+    text-decoration-line: underline;
+
+}
+p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#short-bio {
+    text-decoration: yellow wavy underline;
+    text-transform: capitalize;
+    font-family: Cambria, Georgia;
+}
+
+#name-header {
+    text-align: center;
+    color: blue;
+    border: 1px solid rgb(255, 0, 0);
+    background-color: lightpink;
+    border-radius: 5in;
+    padding: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
