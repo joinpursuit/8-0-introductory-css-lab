@@ -1,7 +1,7 @@
 body {
     font-family: sans-serif;
     background-color: aquamarine;
-    
+    text-align: center;
 }
 
 ul{
@@ -31,8 +31,7 @@ li {
 
 img {
     height: 200px;
-    align-content: center;
-}
+    
 
 h3{
     text-decoration: underline;
